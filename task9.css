@@ -33,6 +33,7 @@ nav {
     box-shadow: 1px 5px 15px rgba(118, 115, 115, 0.2);
     height: 10vh;
     padding-right: 3rem;
+    padding: .5rem;
 }
 
 nav img {
@@ -64,6 +65,14 @@ nav img {
 
     #header-txt #hidden-button {
         display: block;
+    }
+    .major-1-hero-txt{
+        top: 30%;
+    }
+    nav img {
+
+        padding-left: 1.5rem;
+    
     }
 }
 
@@ -118,7 +127,7 @@ nav img {
 
 .major-1-hero-txt {
     position: absolute;
-    padding-top: 13%;
+    top: 10rem;
     left: 0;
     right: 0;
     margin: auto;
@@ -189,6 +198,25 @@ nav img {
     font-size: clamp(1rem, 1.5rem, 2.5rem);
     font-weight: 50;
 }
+@media (max-width: 768px) {
+    .oneofthree-txt :nth-child(2) {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
+    .oneofthree-txt :nth-child(3) {
+        font-size: 1.3rem;
+    }
+    .oneofthree-txt :nth-child(5) {
+        font-size: 1.1rem;
+    }
+    #oneofthree-images {
+        margin-top: 2.5rem;
+        border-radius: 5rem;
+        height: 10rem;
+        width: 10rem;
+    }
+}
 
 .major-2-items {
     display: flex;
@@ -214,6 +242,7 @@ nav img {
         display: flex;
         margin-left: 25%;
     }
+    
 }
 
 #showmore {
@@ -396,7 +425,27 @@ nav img {
     right: 3rem;
 }
 
-
+@media (max-width: 768px) {
+    #major-4-txt-title-1 {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
+    
+    #major-4-txt-title-2 {
+        font-size: clamp(1rem, 1.6rem, 3.1rem);
+    } 
+    .major-4-5-txt-pointer {
+        margin-top: 3rem;
+        font-size: 1.3rem;
+    }
+    #major-4-txt{
+        font-size: 1rem;
+        width: 65%;
+    }
+    #major-4-imgarea img{
+        padding-left: 50%;
+    }
+}
 
 .major-6 {
     position: relative;
@@ -460,9 +509,10 @@ nav img {
 
 #major-8-img {
     position: absolute;
+    height: 30rem;
 }
 .major-8-txt{
-    display: flex;width: 37%;flex-direction: column;font-size: 1.3rem;margin-left: 13%;
+    display: flex;width: 37%;flex-direction: column;font-size: 1.7rem;margin-left: 13%;
 }
 .major-8-txt-yoga{font-size: 2rem;}
 .major-8-txt-try{font-weight: 599;}
@@ -539,8 +589,8 @@ footer {
 
 @media (max-width: 768px) {
     #major-4-last-p {display: none;}
-    #major-5-last-p {display: none;}
-    #major-9-vertical-p {display: none;}
+    #major-5-last-p {left: 2rem;font-size: .8rem;}
+    #major-9-vertical-p {font-size: 1rem;top: -10%;}
 
 
     #major-4-mainarea{
@@ -552,6 +602,24 @@ footer {
     .major-5{
         height:auto;
     }
-    .major-9-txt{text-align: center;font-size: 1.8rem;padding-top: 15%;}
-    #major-8-img{height: 330px;width:350px;}
+    .major-9-txt{font-size: 1rem;padding-top: 15%;}
+    #major-8-img{height: 230px;width:240px;}
+    .major-8-txt{font-size: 1.2rem;}
+    .major-8{height: auto;}
+
+    #footer-left :nth-child(2){
+        font-size: .8rem;
+    }
+    #footer-left :first-child{
+        font-size: 1rem;
+    }
+    #footer-right{
+        font-size: .8rem;
+    }
+    #footer-right div :first-child{
+        font-size: .8rem;
+    }
+    #footer{
+        margin-bottom: 0%;
+    }
 }
