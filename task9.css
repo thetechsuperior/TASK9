@@ -9,12 +9,12 @@
 
 body {
     margin: 0;
-    padding:0;
+    padding: 0;
     color: var(--purple);
 }
 
 .intro {
-    background-image: url("./src/assets/major1-bgimg.png");
+    background-image: url("./public/assets/major1-bgimg.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -48,20 +48,22 @@ nav {
 #hidden-button {
     display: none;
 }
-#headerImg{
+
+#headerImg {
     position: absolute;
     height: 80%;
     left: clamp(1rem, 1vw, 2rem);
     padding-top: 2px;
 }
+
 #headerText button {
     margin: 1vw;
     border: none;
     background: none;
     cursor: pointer;
-    font-size: clamp(2.2vw, 2.5vw, 3vw); 
+    font-size: clamp(2.2vw, 2.5vw, 3vw);
     color: var(--purple);
-    
+
 }
 
 #headerText button:hover {
@@ -69,7 +71,7 @@ nav {
     border-radius: 5px;
 }
 
-.introMascot{
+.introMascot {
     position: relative;
     display: block;
 }
@@ -88,7 +90,7 @@ nav {
     /* right: 0; */
     /* margin: auto; */
     text-align: center;
- 
+
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -151,7 +153,7 @@ nav {
     width: 90%;
 }
 
-.oneofthree{
+.oneofthree {
     display: flex;
     padding: max(1vh, 1vw) 0;
 }
@@ -165,6 +167,7 @@ nav {
     width: 30vw;
     height: 30vw;
 }
+
 .oneofthreeText {
     padding: 3%;
 }
@@ -178,13 +181,15 @@ nav {
     font-size: clamp(.2rem, 2.2vw, 1.4rem);
     font-weight: 100;
 }
+
 .oneofthreeText :nth-child(5) {
     font-size: clamp(.2rem, 2.2vw, 1.4rem);
     font-weight: 100;
 }
 
 .ellipsisVertical {
-    height:clamp(.2rem, 3vw, 2.5rem);;
+    height: clamp(.2rem, 3vw, 2.5rem);
+    ;
     fill: var(--purple);
 }
 
@@ -194,7 +199,7 @@ nav {
 }
 
 #showmore {
-    font-size:clamp(.2rem, 3vw, 1.5rem);
+    font-size: clamp(.2rem, 3vw, 1.5rem);
     font-weight: 600;
     padding: clamp(.2rem, 3vw, 1.5rem);
     padding-right: clamp(.4rem, max(5vw, 5vh), 3rem);
@@ -212,14 +217,14 @@ nav {
     padding: 0%;
 
     position: relative;
-    background-image: url("./src/assets/major3-bgimg.png");
+    background-image: url("./public/assets/major3-bgimg.png");
     background-position: center;
     background-size: cover;
     top: 0%;
     height: 100vh;
     color: white;
     margin-top: 2%;
-    
+
 }
 
 .discount img {
@@ -257,35 +262,10 @@ nav {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .dynamics {
     margin: 0;
     padding: 0%;
-    background-image: url("./src/assets/major4pbgimg.png");
+    background-image: url("./public/assets/major4pbgimg.png");
     background-position: top left;
     background-size: min(50vh, 50vw);
     background-repeat: no-repeat;
@@ -301,14 +281,14 @@ nav {
     padding-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
-    font-size: clamp(.8rem, max(2vh,2vw), 1.3rem);
+    font-size: clamp(.8rem, max(2vh, 2vw), 1.3rem);
 
     letter-spacing: .17rem;
 }
 
-#dynamicsText-1{
+#dynamicsText-1 {
     line-height: 0rem;
-    font-size:  clamp(1.5rem, 1vw, 3.1rem);
+    font-size: clamp(1.5rem, 1vw, 3.1rem);
     font-weight: bold;
 }
 
@@ -345,6 +325,7 @@ nav {
     font-weight: 600;
     line-height: 0rem;
 }
+
 #date-time-2 {
     font-weight: 200;
     line-height: 1rem;
@@ -361,14 +342,14 @@ nav {
     writing-mode: vertical-lr;
     text-orientation: upright;
     position: absolute;
-    right: clamp(0rem , min(2vh,2vw), 4rem);
+    right: clamp(0rem, min(2vh, 2vw), 4rem);
     bottom: 0;
-    font-size: clamp(1rem ,max(2vh,2vw) , 4rem);
+    font-size: clamp(1rem, max(2vh, 2vw), 4rem);
 }
 
 #dynamicsImg {
-    height: max(40vh,40vw);
-    width: max(40vh,40vw);
+    height: max(40vh, 40vw);
+    width: max(40vh, 40vw);
     display: block;
     margin: 0 auto;
 }
@@ -376,7 +357,7 @@ nav {
 .dynamicpositions {
     margin: 0;
     padding: 0%;
-    background-image: url("./src/assets/major5-bgimg.png");
+    background-image: url("./public/assets/major5-bgimg.png");
     background-position: top right;
     background-size: min(50vh, 50vw);
     background-repeat: no-repeat;
@@ -388,54 +369,15 @@ nav {
     writing-mode: vertical-lr;
     text-orientation: upright;
     position: absolute;
-    left: clamp(0rem , min(2vh,2vw), 4rem);
+    left: clamp(0rem, min(2vh, 2vw), 4rem);
     bottom: 0;
-    font-size: clamp(1rem ,max(2vh,2vw) , 4rem);
+    font-size: clamp(1rem, max(2vh, 2vw), 4rem);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .healthyLife {
     position: relative;
-    height: 60vh;
-    margin: 10%;
+    height: auto;
+    padding: 5%;
     margin-top: 0%;
     margin-bottom: 0%;
 }
@@ -444,7 +386,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: clamp(1.3rem , max(1vh,1vw),2rem);
+    font-size: clamp(1.3rem, max(1vh, 1vw), 2rem);
     line-height: 0;
     font-weight: 600;
 }
@@ -456,114 +398,185 @@ nav {
     border: 1px solid var(--purple);
     margin: 0 0.5rem;
 }
+
 .life {
     text-align: center;
-    font-size: clamp(1.3rem , max(1vh,1vw),2rem);
+    font-size: clamp(1.3rem, max(1vh, 1vw), 2rem);
     line-height: 0;
 }
 
 
-#major-6-main {
+#healthyMain {
 
     text-align: center;
     align-items: center;
     margin-top: 10%;
-    font-size: 1.1rem;
+    font-size: clamp(.95rem, max(2vh, 2vw), 1.1rem);
 }
 
-#major-6-main div :nth-child(2) {
+#healthyMain div {
+    padding: 3%;
+}
+#healthyMain div img{
+    width: 25vw;
+    height: auto;
+}
+
+#healthyMain div :nth-child(2) {
     font-weight: 599;
-    font-size: 1.5rem;
+    font-size: clamp(1.2rem, max(2vh, 2vw), 1.5rem);
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.major-7 {
+.summerClasses {
     position: relative;
     height: auto;
     top: 0%;
-    margin: 5%;
+
+    /* margin: 5%; */
+    /* font-size: clamp(.8rem, max(2vh,2vw), 1.3rem); */
 }
 
-.major-8 {
-    position: relative;
-    height: 70vh;
-    top: 0%;
+.summerClassesHead {
+    line-height: 80%;
+    text-align: center;
+    padding-top: 1rem;
+    letter-spacing: 3px;
+}
+
+.summerClassesHead :first-child {
+    font-size: clamp(1rem, 2.5vw, 2rem);
+    font-weight: lighter;
+}
+
+.summerClassesHead :nth-child(2) {
+    font-size: clamp(1rem, 2.5vw, 2rem);
+    font-weight: 600;
+}
+
+.yogaClassesItems {
+    margin: auto;
+    width: 90%;
+}
+
+.oneofthree {
     display: flex;
+    padding: max(1vh, 1vw) 0;
 }
 
-#major-8-img {
-    position: absolute;
-    height: 30rem;
+.oneofthree hr {
+    border: .1vw solid var(--purple);
 }
 
-.major-8-txt {
-    display: flex;
-    width: 37%;
-    flex-direction: column;
-    font-size: 1.7rem;
-    margin-left: 13%;
+#oneofthreeImages {
+    border-radius: 15vw;
+    width: 30vw;
+    height: 30vw;
 }
 
-.major-8-txt-yoga {
-    font-size: 2rem;
+.oneofthreeText {
+    padding: 3%;
 }
 
-.major-8-txt-try {
+.oneofthreeText :nth-child(2) {
+    font-size: clamp(.2rem, 3vw, 2rem);
     font-weight: 599;
 }
 
-.major-9 {
-    position: relative;
-    top: 0%;
-    height: 90vh;
+.oneofthreeText :nth-child(3) {
+    font-size: clamp(.2rem, 2.2vw, 1.4rem);
+    font-weight: 100;
 }
 
-#major-9-vertical-p {
+.oneofthreeText :nth-child(5) {
+    font-size: clamp(.2rem, 2.2vw, 1.4rem);
+    font-weight: 100;
+}
+
+.ellipsisVertical {
+    height: clamp(.2rem, 3vw, 2.5rem);
+    ;
+    fill: var(--purple);
+}
+
+#showmore-parent {
+    display: flex;
+    justify-content: center;
+}
+
+#showmore {
+    font-size: clamp(.2rem, 3vw, 1.5rem);
+    font-weight: 600;
+    padding: clamp(.2rem, 3vw, 1.5rem);
+    padding-right: clamp(.4rem, max(5vw, 5vh), 3rem);
+    padding-left: clamp(.4rem, max(5vw, 5vh), 3rem);
+    margin-bottom: 2%;
+    border-radius: 25rem;
+    border: none;
+    background-color: var(--purple);
+    color: white;
+    box-shadow: 0px 0px 15px rgba(140, 135, 135, 0.8);
+}
+
+.outro {
+    position: relative;
+    height: auto;
+    top: 0%;
+}
+
+#outroImg {
+    position: absolute;
+    right: 5%;
+    border-radius: 15vw;
+    width: 30vw;
+    height: 28vw;
+}
+
+.outroText {
+    display: flex;
+    flex-direction: column;
+    font-size: clamp(.95rem, max(1vh, 1vw), 1.7rem);
+    margin-left: 10%;
+}
+
+.outroTextYoga {
+    font-size: clamp(1rem, max(2vh, 2vw), 2rem);
+}
+
+.outroTextTry {
+    font-weight: 599;
+}
+
+#outroVerticalText {
     writing-mode: vertical-lr;
     text-orientation: upright;
     position: absolute;
-    top: -20%;
+    left: clamp(0rem, min(.7vh, .7vw), 4rem);
+    top: 10%;
+    font-size: clamp(.6rem, max(1vh, 1vw), .8rem);
+}
+
+.footer {
+    position: relative;
+    top: 0%;
+    height: auto;
+    margin-top: 5%;
+}
+
+#workshopText {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    position: absolute;
+    top: -10%;
     right: 0;
-    font-size: clamp(1rem, 1.8rem, 2.5rem);
+    font-size: clamp(.6rem, max(1vh, 1vw), .8rem);
     margin-right: 8%;
 }
 
 
-#major-9-bgimg {
+#footerBgImg {
     position: absolute;
+    height: fit-content;
     width: 100%;
     z-index: -3;
 }
@@ -573,248 +586,149 @@ nav {
     right: 50%;
     left: 50%;
     margin: auto;
-    height: 2%;
+    height: 1.5%;
 }
 
-.major-9-txt {
+.footermainText {
     text-align: center;
-    font-size: clamp(1rem, 2rem, 3rem);
+    font-size: clamp(.7rem, max(1vh, 1vw), 3rem);
     padding-top: 15%;
 }
 
 footer {
     display: flex;
-    margin: 10%;
-    font-size: 1.3rem;
+    flex-direction: column-reverse;
+    margin: 5%;
+    font-size: clamp(.6rem, max(1vh, 1vw), 1.3rem);
 }
 
-#footer-left :first-child {
+#footerLeft :first-child {
     font-weight: 600;
 }
 
-#footer-right {
+#footerLeft img {
+    width: 25%;
+}
+
+
+#footerRight {
     margin-top: 2rem;
     display: flex;
     width: 50%;
     justify-content: space-around;
 }
 
-#footer-right div :first-child {
+#footerRight div :first-child {
     font-weight: 600;
 }
 
-#random-2 {
+#purpleBottom {
     background-color: var(--purple);
     height: 2rem;
     display: flex;
 }
 
-#threeBarsSVG {
-    height: 1rem;
-}
-
-
-
-/* 
-@media screen and (max-width: 768px) {
-    #header-txt {
-        flex-direction: column;
-    }
-
-    #header-txt button {
-        display: none;
-    }
-
-    #header-txt #hidden-button {
-        display: block;
-    }
-
-    .major-1-hero-txt {
-        top: 30%;
-    }
-
-    nav img {
-
-        padding-left: 1.5rem;
-
-    }
-
-    #major-4-last-p {
-        display: none;
-    }
-
-    #major-5-last-p {
-        left: 2rem;
-        font-size: .8rem;
-    }
-
-    #major-9-vertical-p {
-        font-size: 1rem;
-        top: -10%;
-    }
-
-
-    #major-4-mainarea {
-        flex-direction: column;
-    }
-
-    .major-4 {
-        height: auto;
-    }
-
-    .major-5 {
-        height: auto;
-    }
-
-    .major-9-txt {
-        font-size: 1rem;
-        padding-top: 15%;
-    }
-
-    #major-8-img {
-        height: 230px;
-        width: 240px;
-    }
-
-    .major-8-txt {
-        font-size: 1.2rem;
-    }
-
-    .major-8 {
-        height: auto;
-    }
-
-    #footer-left :nth-child(2) {
-        font-size: .8rem;
-    }
-
-    #footer-left :first-child {
-        font-size: 1rem;
-    }
-
-    #footer-right {
-        font-size: .8rem;
-    }
-
-    #footer-right div :first-child {
-        font-size: .8rem;
-    }
-
-    #footer {
-        margin-bottom: 0%;
-    }
-
-    .major-6 {
-        height: auto;
-    }
-
-    #major-6-main {
-        flex-direction: column;
-        justify-content: none;
-        font-size: .8rem;
-    }
-
-    #major-4-txt-title-1 {
-        margin-top: 2rem;
-        font-size: 1.5rem;
-    }
-
-    #major-4-txt-title-2 {
-        font-size: clamp(1rem, 1.6rem, 3.1rem);
-    }
-
-    .major-4-5-txt-pointer {
-        margin-top: 3rem;
-        font-size: 1.3rem;
-    }
-
-    #major-4-txt {
-        font-size: 1rem;
-        width: 65%;
-    }
-
-    #major-4-imgarea img {
-        padding-left: 50%;
-    }
-
-    .oneofthree-txt :nth-child(2) {
-        font-size: 1.5rem;
-        font-weight: bold;
-    }
-
-    .oneofthree-txt :nth-child(3) {
-        font-size: 1.3rem;
-    }
-
-    .oneofthree-txt :nth-child(5) {
-        font-size: 1.1rem;
-    }
-
-    #oneofthree-images {
-        margin-top: 2.5rem;
-        border-radius: 5rem;
-        height: 10rem;
-        width: 10rem;
-    }
-
-    .major-2-items {
-        flex-direction: column;
-    }
-
-    .major-2-oneofthree {
-        display: flex;
-    }
-
-    .oneofthree-txt img {
-        display: none;
-    }
-
-    .major-2-head {
-        display: flex;
-        margin-left: 25%;
-    }
-} */
-
-
 @media screen and (min-width: 768px) {
-    .intro{
+    .intro {
         height: 100vh;
     }
+
     #upperWebpagePurple {
         height: 1vw;
     }
-    #headerText button{
+
+    #headerText button {
         font-size: clamp(1.4vw, 1.8vw, 3vw);
     }
-    .yogaClassesItems{
+
+    .yogaClassesItems {
         display: flex;
     }
-    .oneofthree{
+
+    .oneofthree {
         flex-direction: column;
         padding: 3%;
     }
+
     #oneofthreeImages {
         border-radius: 15vw;
         width: 21vw;
         height: 21vw;
     }
 
-    .dynamics{
+    .dynamics {
         display: flex;
         margin-bottom: 10%;
     }
+
     #dynamicsVerticalText {
-        right: clamp(0rem , min(2vh,2vw), 4rem);
+        right: clamp(0rem, min(2vh, 2vw), 4rem);
         bottom: -20%;
-        font-size: clamp(1rem ,max(2vh,2vw) , 4rem);
+        font-size: clamp(1rem, max(2vh, 2vw), 4rem);
     }
+
     #dynamicspositionsVerticalText {
-        left: clamp(0rem , min(2vh,2vw), 4rem);
+        left: clamp(0rem, min(2vh, 2vw), 4rem);
         bottom: -20%;
-        font-size: clamp(1rem ,max(2vh,2vw) , 4rem);
+        font-size: clamp(1rem, max(2vh, 2vw), 4rem);
     }
-    .dynamicpositions{
+
+    .dynamicpositions {
         display: flex;
         flex-direction: row-reverse;
     }
+
+    #healthyMain {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        margin-top: 10%;
+        font-size: 1.1rem;
+    }
+
+
+    .outro {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .outroText {
+        font-size: clamp(1.5rem, max(1.8vh, 1.8vw), 4rem);
+        left: 5%;
+    }
+
+    .outroTextYoga {
+        font-size: clamp(1.2rem, max(2vh, 2vw), 4rem);
+    }
+
+    .outroTextTry {
+        font-weight: 599;
+    }
+
+
+    #outroVerticalText {
+        left: 2%;
+        top: 10%;
+        font-size: clamp(1rem, max(1vh, 1vw), 2.3rem);
+    }
+
+    #outroImg {
+        right: 7%;
+    }
+
+
+    footer {
+        flex-direction: row;
+        font-size: clamp(.6rem, max(2vh, 2vw), 1.3rem);
+        padding-top: 5%;
+    }
+
+    .footermainText {
+        font-size: clamp(.7rem, max(2vh, 2vw), 3rem);
+    }
+    #healthyMain div img{
+        width: auto;
+        height: auto;
+    }
+
 }
